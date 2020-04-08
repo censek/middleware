@@ -1,0 +1,4 @@
+interface DataService
+{ void insert(in string stuName,in string StuNo,in float score);
+float search(in string stuNo);
+};
